@@ -19,9 +19,9 @@
 		DE32628218BC660000118D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE32628018BC660000118D27 /* InfoPlist.strings */; };
 		DE32628418BC660000118D27 /* TFTempleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE32628318BC660000118D27 /* TFTempleteTests.m */; };
 		DE32629C18BC66FD00118D27 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE32628F18BC66FD00118D27 /* TFAppDelegate.m */; };
-		DE32629F18BC66FD00118D27 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE32629B18BC66FD00118D27 /* TFViewController.m */; };
 		DE3262A318BC672200118D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3262A018BC672200118D27 /* main.m */; };
 		DE3262A418BC672200118D27 /* TFTemplete-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3262A118BC672200118D27 /* TFTemplete-Info.plist */; };
+		DE3262A718BC6B3B00118D27 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3262A618BC6B3B00118D27 /* TFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +49,11 @@
 		DE32628318BC660000118D27 /* TFTempleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTempleteTests.m; sourceTree = "<group>"; };
 		DE32628E18BC66FD00118D27 /* TFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
 		DE32628F18BC66FD00118D27 /* TFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
-		DE32629A18BC66FD00118D27 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
-		DE32629B18BC66FD00118D27 /* TFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
 		DE3262A018BC672200118D27 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE3262A118BC672200118D27 /* TFTemplete-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TFTemplete-Info.plist"; sourceTree = "<group>"; };
 		DE3262A218BC672200118D27 /* TFTemplete-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFTemplete-Prefix.pch"; sourceTree = "<group>"; };
+		DE3262A518BC6B3B00118D27 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		DE3262A618BC6B3B00118D27 /* TFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +204,8 @@
 		DE32629818BC66FD00118D27 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				DE3262A518BC6B3B00118D27 /* TFViewController.h */,
+				DE3262A618BC6B3B00118D27 /* TFViewController.m */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -211,8 +213,6 @@
 		DE32629918BC66FD00118D27 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				DE32629A18BC66FD00118D27 /* TFViewController.h */,
-				DE32629B18BC66FD00118D27 /* TFViewController.m */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -316,9 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3262A718BC6B3B00118D27 /* TFViewController.m in Sources */,
 				DE32629C18BC66FD00118D27 /* TFAppDelegate.m in Sources */,
 				DE3262A318BC672200118D27 /* main.m in Sources */,
-				DE32629F18BC66FD00118D27 /* TFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +527,7 @@
 				DE32628918BC660000118D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE32628A18BC660000118D27 /* Build configuration list for PBXNativeTarget "TFTempleteTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +536,7 @@
 				DE32628C18BC660000118D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
